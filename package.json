@@ -25,5 +25,8 @@
     "start": "node dist/index.js",
     "dev": "nodemon src/index.ts",
     "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=14.20.1"
   }
 }
